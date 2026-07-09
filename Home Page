@@ -1,0 +1,63 @@
+FER_Emotion_Music_MentalHealth/
+│
+├── datasets/
+│   ├── AffectNet/
+│   ├── RAF_DB/
+│   └── FER2013/
+│
+├── models/
+│   ├── convnext_model.py
+│   ├── coatnet.py
+│   ├── attention.py
+│   ├── classifier.py
+│   └── losses.py
+│
+├── preprocessing/
+│   ├── face_detection.py
+│   ├── augmentation.py
+│   ├── preprocessing.py
+│   └── dataset_loader.py
+│
+├── training/
+│   ├── train_convnext.py
+│   ├── train_coatnet.py
+│   ├── trainer.py
+│   ├── optimizer.py
+│   └── scheduler.py
+│
+├── evaluation/
+│   ├── test.py
+│   ├── confusion_matrix.py
+│   ├── roc_curve.py
+│   ├── metrics.py
+│   └── visualization.py
+│
+├── recommendation/
+│   ├── emotion_detector.py
+│   ├── music_recommender.py
+│   ├── spotify_api.py
+│   ├── youtube_music.py
+│   └── playlist_generator.py
+│
+├── mental_health/
+│   ├── mood_tracker.py
+│   ├── emotion_history.py
+│   ├── wellness_score.py
+│   └── recommendation_engine.py
+│
+├── realtime/
+│   ├── webcam.py
+│   ├── realtime_detection.py
+│   └── inference.py
+│
+├── utils/
+│   ├── config.py
+│   ├── logger.py
+│   ├── seed.py
+│   └── helper.py
+│
+├── results/
+│
+├── main.py
+├── requirements.txt
+└── README.md
